@@ -2,7 +2,7 @@
 
 This is a Github repository containing code for JERM [1].
 
-JERM is a method of learning from PU (Positive-Unlabeled) data. The method is recommended in situations where the labeling mechanism may depend on the feature vector, but it also works effectively in situations where the labeling mechanism is independent of the feature vector (Selected Completely at random assumption).
+JERM is a method of learning from PU (Positive-Unlabeled) data. The method is recommended in situations where the labeling mechanism may depend on the feature vector, but it also works effectively in situations where the labeling mechanism is independent of the feature vector (Selected Completely At Random Assumption).
 
 
 ## Abstract ##
