@@ -1,14 +1,11 @@
 # JERM
 
-This is the repository for the paper 
-Wojciech Rejchel, Paweł Teisseyre, Jan Mielniczuk 
-[Joint empirical risk minimization for instance-dependent positive-unlabeled data(https://www.sciencedirect.com/science/article/pii/S0950705124010785), Knowledge-Based Systems, 2024.
+This is a Github repository containing code for JERM [1].
 
 
 ## Abstract ##
 
 Learning from positive and unlabeled data (PU learning) is actively researched machine learning task. The goal is to train a binary classification model based on a training dataset containing part of positives which are labeled, and unlabeled instances. Unlabeled set includes remaining part of positives and all negative observations. An important element in PU learning is modeling of the labeling mechanism, i.e. labels’ assignment to positive observations. Unlike in many prior works, we consider a realistic setting for which probability of label assignment, i.e. propensity score, is instance-dependent. In our approach we investigate minimizer of an empirical counterpart of a joint risk which depends on both posterior probability of inclusion in a positive class as well as on a propensity score. The non-convex empirical risk is alternately optimized with respect to parameters of both functions. In the theoretical analysis we establish risk consistency of the minimizers using recently derived methods from the theory of empirical processes. Besides, the important development here is a proposed novel implementation of an optimization algorithm, for which sequential approximation of a set of positive observations among unlabeled ones is crucial. This relies on modified technique of ’spies’ as well as on a thresholding rule based on conditional probabilities. Experiments conducted on 20 data sets for various labeling scenarios show that the proposed method works on par or more effectively than state-of-the-art methods based on propensity function estimation.
-
 
 
 Example
@@ -63,6 +60,8 @@ acc = accuracy_score(y_test, np.where(prob_y>0.5,1,0))
 print("JERM, Accuracy=", acc)
 
 ```
+## References
+[1] Wojciech Rejchel, Paweł Teisseyre, Jan Mielniczuk Joint empirical risk minimization for instance-dependent positive-unlabeled data, Knowledge-Based Systems, Volume 304, 2024.
 
 
 ## Contact
