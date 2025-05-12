@@ -63,7 +63,6 @@ print("JERM, Accuracy=", acc)
 ## References
 [1] Wojciech Rejchel, Paweł Teisseyre, Jan Mielniczuk, [Joint empirical risk minimization for instance-dependent positive-unlabeled data](https://www.sciencedirect.com/science/article/pii/S0950705124010785), Knowledge-Based Systems, Volume 304, 2024.
 
-[GitHub Pages](https://pages.github.com/)
 
 ## Contact
 
